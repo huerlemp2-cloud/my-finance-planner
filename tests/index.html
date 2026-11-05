@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Finance Planner — Engine tests</title>
+  <style>
+    body { font: 15px/1.5 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #101C2B; color: #F6F8FB; margin: 0; padding: 24px; }
+    h1 { font-size: 20px; margin: 0 0 4px; }
+    #summary { font-weight: 600; margin: 0 0 16px; }
+    .pass { color: #63CDB0; } .fail { color: #F28B91; }
+    ul { list-style: none; padding: 0; margin: 0; }
+    li { padding: 6px 10px; border-bottom: 1px solid #33495C; }
+    a { color: #86B8FB; }
+  </style>
+</head>
+<body>
+  <h1>Calculation engine tests</h1>
+  <p id="summary">Running…</p>
+  <ul id="results"></ul>
+  <p><a href="../index.html">← Back to the app</a></p>
+  <script src="../js/engine.js"></script>
+  <script src="../js/store.js"></script>
+  <script src="engine.test.js"></script>
+</body>
+</html>

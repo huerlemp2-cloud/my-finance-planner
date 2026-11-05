@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Personal data — never commit your backups or exports
+my-finance-backup-*.json
+my-finance-spreadsheet-*.csv
+*.local.json
+
+# Logs
+*.log
+node_modules/
